@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,54 +13,28 @@ namespace AluraWF {
     public partial class frmAlfabeto : Form {
         public frmAlfabeto() {
             InitializeComponent();
-            ArrayLetras();
-            ArrayNum();
         }
 
-        public static void ArrayNum() {
-            int[] num = null;
-            int b = 0;
-            num = new int[10];
+        protected override void OnPaint(PaintEventArgs e) {
+            /* Cria um objeto do tipo GraphicsPath que modifica a forma
+            do botão em questão*/
 
-            for (int i = 0; i <= 9; i++) {
-                num[i] = i;
+            var botoes = new[] { btnA, btnB, btnC1, btnC2, btnD, btnE,
+            btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP,
+            btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ, btnMais,
+            btnMenos, btnMulti, btnDiv, btn0, btn1, btn2, btn3, btn4, btn5, btn6,
+            btn7, btn8, btn9};
+            //colocando todos os buttons em um array
+
+            foreach (var botao in botoes) {
+                GraphicsPath forma = new GraphicsPath();
+                /* Define como uma elipse o formato do objeto criado
+                 atribuindo valores para os parâmetros de posição e tamanho*/
+                forma.AddEllipse(0, 0, botao.Width, botao.Height);
+                /* Define a região do botão a ser arredondado, ou seja,
+                o botão em si*/
+                botao.Region = new Region(forma);
             }
-        }
-        
-        public static void ArrayLetras() {
-            string[] letras = null;
-            letras = new string[31];
-            letras[0] = "A";
-            letras[1] = "B";
-            letras[2] = "C1";
-            letras[3] = "C2";
-            letras[4] = "D";
-            letras[5] = "E";
-            letras[6] = "F";
-            letras[7] = "G";
-            letras[8] = "H";
-            letras[9] = "I";
-            letras[10] = "J";
-            letras[11] = "K";
-            letras[12] = "L";
-            letras[13] = "M";
-            letras[14] = "N";
-            letras[15] = "O";
-            letras[16] = "P";
-            letras[17] = "Q";
-            letras[18] = "R";
-            letras[19] = "S";
-            letras[20] = "T";
-            letras[21] = "U";
-            letras[22] = "V";
-            letras[23] = "W";
-            letras[24] = "X";
-            letras[25] = "Y";
-            letras[26] = "Z";
-            letras[27] = "mais";
-            letras[28] = "menos";
-            letras[29] = "multi";
-            letras[30] = "div";
         }
 
         public void LimpaCorButton(string letra) {
@@ -98,10 +73,10 @@ namespace AluraWF {
 
             foreach (var botao in botoes) {
                 if (btn.ToString() == botao.ToString()) {
-                    botao.BackColor = Color.Gold;
+                    botao.BackColor = Color.MidnightBlue;
                 }
                 else {
-                    botao.BackColor = Color.Transparent;
+                    botao.BackColor = Color.Gold;
                 }
             }
         }

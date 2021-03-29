@@ -66,12 +66,20 @@ namespace AluraWF {
             //remove a última ocorrência do caractere #
             string arquivosSelecionados = file.Remove(posicao);
             string[] arquivos = arquivosSelecionados.Split('#');
-            MessageBox.Show(arquivos[0], arquivos[1]);
 
             imagensCombinadas = CombinarImagens(arquivos);
             string pathNewImage = "../../Imagens/Gerador/teste.jpg";
+
+            if (System.IO.File.Exists(pathNewImage)) {
+                System.IO.File.Delete(pathNewImage);
+            }
+
             imagensCombinadas.Save(pathNewImage, System.Drawing.Imaging.ImageFormat.Jpeg);
-            pbGerador.Load(pathNewImage);
+            
+            using (FileStream fs = new FileStream(pathNewImage, FileMode.Open)) {
+                pbGerador.Image = Image.FromStream(fs);
+                fs.Close();
+            }
         }
 
         public static System.Drawing.Bitmap CombinarImagens(string[] files) {
@@ -122,7 +130,6 @@ namespace AluraWF {
         }
 
             private void btnBuscar_Click(object sender, EventArgs e) {
-              
             string palavra = tbPalavra.Text;
             SelecionarImagens(palavra);
             

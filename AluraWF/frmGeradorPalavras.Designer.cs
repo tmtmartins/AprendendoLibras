@@ -79,6 +79,7 @@
             this.pbGerador.Location = new System.Drawing.Point(39, 255);
             this.pbGerador.Name = "pbGerador";
             this.pbGerador.Size = new System.Drawing.Size(1260, 327);
+            this.pbGerador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbGerador.TabIndex = 5;
             this.pbGerador.TabStop = false;
             // 
