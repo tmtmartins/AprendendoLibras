@@ -35,7 +35,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(280, 58);
+            this.label1.Location = new System.Drawing.Point(275, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(830, 30);
             this.label1.TabIndex = 0;
@@ -43,13 +43,15 @@
             // 
             // btn_sair
             // 
-            this.btn_sair.BackColor = System.Drawing.Color.Khaki;
-            this.btn_sair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sair.Location = new System.Drawing.Point(1228, 648);
+            this.btn_sair.BackColor = System.Drawing.Color.Gold;
+            this.btn_sair.FlatAppearance.BorderSize = 0;
+            this.btn_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sair.Location = new System.Drawing.Point(1185, 641);
             this.btn_sair.Name = "btn_sair";
-            this.btn_sair.Size = new System.Drawing.Size(100, 41);
+            this.btn_sair.Size = new System.Drawing.Size(120, 41);
             this.btn_sair.TabIndex = 2;
-            this.btn_sair.Text = "Sair";
+            this.btn_sair.Text = "VOLTAR";
             this.btn_sair.UseVisualStyleBackColor = false;
             this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
@@ -57,16 +59,18 @@
             // 
             this.tbPalavra.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbPalavra.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPalavra.Location = new System.Drawing.Point(149, 113);
+            this.tbPalavra.Location = new System.Drawing.Point(144, 182);
             this.tbPalavra.Name = "tbPalavra";
             this.tbPalavra.Size = new System.Drawing.Size(907, 37);
             this.tbPalavra.TabIndex = 3;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Khaki;
+            this.btnBuscar.BackColor = System.Drawing.Color.Gold;
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(1062, 113);
+            this.btnBuscar.Location = new System.Drawing.Point(1073, 182);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(140, 37);
             this.btnBuscar.TabIndex = 4;
@@ -76,7 +80,8 @@
             // 
             // pbGerador
             // 
-            this.pbGerador.Location = new System.Drawing.Point(39, 255);
+            this.pbGerador.BackColor = System.Drawing.Color.Orange;
+            this.pbGerador.Location = new System.Drawing.Point(45, 299);
             this.pbGerador.Name = "pbGerador";
             this.pbGerador.Size = new System.Drawing.Size(1260, 327);
             this.pbGerador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
