@@ -52,11 +52,11 @@
     <Compile Include="Alfabeto.Designer.cs">
       <DependentUpon>Alfabeto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Descricao.cs">
+    <Compile Include="frmDescricao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Descricao.Designer.cs">
-      <DependentUpon>Descricao.cs</DependentUpon>
+    <Compile Include="frmDescricao.Designer.cs">
+      <DependentUpon>frmDescricao.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGeradorPalavras.cs">
       <SubType>Form</SubType>
@@ -78,12 +78,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Transform.cs" />
     <EmbeddedResource Include="Alfabeto.resx">
       <DependentUpon>Alfabeto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Descricao.resx">
-      <DependentUpon>Descricao.cs</DependentUpon>
+    <EmbeddedResource Include="frmDescricao.resx">
+      <DependentUpon>frmDescricao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGeradorPalavras.resx">
       <DependentUpon>frmGeradorPalavras.cs</DependentUpon>
@@ -96,14 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -122,6 +122,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Imagens\Icons\voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\clean4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\clean3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\clean2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\clean1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Alfabeto\inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Background\yellow2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icons\exit1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

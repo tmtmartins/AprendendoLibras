@@ -9,12 +9,31 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security;
 using System.IO;
+using System.Drawing.Drawing2D;
 
 namespace AluraWF {
     public partial class frmGeradorPalavras : Form {
         public frmGeradorPalavras() {
             InitializeComponent();
             lblDescricao.Left = (Width - lblDescricao.Width) / 2;
+        }
+
+        protected override void OnPaint(PaintEventArgs e) {
+            /* Cria um objeto do tipo GraphicsPath que modifica a forma
+            do botão em questão*/
+
+            var botoes = new[] { btnBuscar, btnSair, btnLimpar};
+            //colocando todos os buttons em um array
+
+            foreach (var botao in botoes) {
+                GraphicsPath forma = new GraphicsPath();
+                /* Define como uma elipse o formato do objeto criado
+                 atribuindo valores para os parâmetros de posição e tamanho*/
+                forma.AddEllipse(0, 0, botao.Width, botao.Height);
+                /* Define a região do botão a ser arredondado, ou seja,
+                o botão em si*/
+                botao.Region = new Region(forma);
+            }
         }
 
         private void btn_sair_Click(object sender, EventArgs e) {
@@ -91,6 +110,10 @@ namespace AluraWF {
                 string palavra = tbPalavra.Text;
                 Transform.SelecionarImagens(palavra, pbGerador);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            tbPalavra.Text = "";
         }
     }
 }

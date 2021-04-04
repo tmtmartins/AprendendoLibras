@@ -43,6 +43,10 @@ namespace AluraWF {
                     letra = ("div");
                 }
 
+                else if (c.Equals(' ')) {
+                    letra = ("espaço");
+                }
+
                 else {
                     letra = c.ToString();
                 }

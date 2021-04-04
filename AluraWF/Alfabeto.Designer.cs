@@ -72,6 +72,7 @@
             // pbAlfabeto
             // 
             this.pbAlfabeto.BackColor = System.Drawing.Color.Gold;
+            this.pbAlfabeto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbAlfabeto.Location = new System.Drawing.Point(659, 36);
             this.pbAlfabeto.Name = "pbAlfabeto";
             this.pbAlfabeto.Size = new System.Drawing.Size(635, 635);
@@ -291,7 +292,7 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnVoltar.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnVoltar.FlatAppearance.BorderSize = 0;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Malgun Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

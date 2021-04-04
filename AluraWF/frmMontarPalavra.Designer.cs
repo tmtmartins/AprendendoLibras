@@ -55,18 +55,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblErros = new System.Windows.Forms.Label();
             this.lblTentativas = new System.Windows.Forms.Label();
-            this.btnVoltar = new System.Windows.Forms.Button();
-            this.pbPalavra = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.pbPalavra = new System.Windows.Forms.PictureBox();
+            this.pbMenu = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbPalavra)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // btnC2
@@ -478,7 +476,7 @@
             // 
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(344, 103);
+            this.lblDescricao.Location = new System.Drawing.Point(344, 80);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(686, 33);
             this.lblDescricao.TabIndex = 73;
@@ -488,7 +486,7 @@
             // 
             this.lblPalavra.AutoSize = true;
             this.lblPalavra.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPalavra.Location = new System.Drawing.Point(495, 407);
+            this.lblPalavra.Location = new System.Drawing.Point(495, 413);
             this.lblPalavra.Name = "lblPalavra";
             this.lblPalavra.Size = new System.Drawing.Size(362, 56);
             this.lblPalavra.TabIndex = 75;
@@ -499,11 +497,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(316, 11);
+            this.label3.Location = new System.Drawing.Point(254, 7);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(269, 56);
+            this.label3.Size = new System.Drawing.Size(224, 47);
             this.label3.TabIndex = 77;
             this.label3.Text = "Tentativas:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -512,11 +510,11 @@
             // 
             this.lblErros.AutoSize = true;
             this.lblErros.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.lblErros.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErros.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErros.ForeColor = System.Drawing.Color.White;
-            this.lblErros.Location = new System.Drawing.Point(169, 11);
+            this.lblErros.Location = new System.Drawing.Point(174, 9);
             this.lblErros.Name = "lblErros";
-            this.lblErros.Size = new System.Drawing.Size(51, 56);
+            this.lblErros.Size = new System.Drawing.Size(42, 47);
             this.lblErros.TabIndex = 78;
             this.lblErros.Text = "0";
             this.lblErros.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -525,14 +523,85 @@
             // 
             this.lblTentativas.AutoSize = true;
             this.lblTentativas.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.lblTentativas.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTentativas.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTentativas.ForeColor = System.Drawing.Color.White;
-            this.lblTentativas.Location = new System.Drawing.Point(581, 11);
+            this.lblTentativas.Location = new System.Drawing.Point(467, 9);
             this.lblTentativas.Name = "lblTentativas";
-            this.lblTentativas.Size = new System.Drawing.Size(78, 56);
+            this.lblTentativas.Size = new System.Drawing.Size(64, 47);
             this.lblTentativas.TabIndex = 79;
             this.lblTentativas.Text = "10";
             this.lblTentativas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(67, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 47);
+            this.label2.TabIndex = 76;
+            this.label2.Text = "Erros:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(699, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(230, 42);
+            this.label4.TabIndex = 83;
+            this.label4.Text = "Recomeçar:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(935, 11);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 44);
+            this.button1.TabIndex = 84;
+            this.button1.Text = "Fácil";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Gold;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(1053, 11);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(104, 44);
+            this.button2.TabIndex = 85;
+            this.button2.Text = "Médio";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Gold;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(1169, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 44);
+            this.button3.TabIndex = 86;
+            this.button3.Text = "Dificil";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnVoltar
             // 
@@ -552,116 +621,35 @@
             // 
             // pbPalavra
             // 
-            this.pbPalavra.Location = new System.Drawing.Point(75, 153);
+            this.pbPalavra.Location = new System.Drawing.Point(75, 128);
             this.pbPalavra.Name = "pbPalavra";
-            this.pbPalavra.Size = new System.Drawing.Size(1198, 220);
-            this.pbPalavra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPalavra.Size = new System.Drawing.Size(1198, 262);
+            this.pbPalavra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbPalavra.TabIndex = 74;
             this.pbPalavra.TabStop = false;
             // 
-            // pictureBox2
+            // pbMenu
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.pictureBox2.Location = new System.Drawing.Point(14, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(675, 85);
-            this.pictureBox2.TabIndex = 80;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(37, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 56);
-            this.label2.TabIndex = 76;
-            this.label2.Text = "Erros:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.pictureBox1.Location = new System.Drawing.Point(726, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(612, 85);
-            this.pictureBox1.TabIndex = 82;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(741, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(230, 42);
-            this.label4.TabIndex = 83;
-            this.label4.Text = "Recomeçar:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(986, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 44);
-            this.button1.TabIndex = 84;
-            this.button1.Text = "Fácil";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1107, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 44);
-            this.button2.TabIndex = 85;
-            this.button2.Text = "Médio";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1224, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 44);
-            this.button3.TabIndex = 86;
-            this.button3.Text = "Dificil";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.pbMenu.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pbMenu.Location = new System.Drawing.Point(0, 0);
+            this.pbMenu.Name = "pbMenu";
+            this.pbMenu.Size = new System.Drawing.Size(1900, 67);
+            this.pbMenu.TabIndex = 80;
+            this.pbMenu.TabStop = false;
             // 
             // frmForca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 711);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.lblTentativas);
             this.Controls.Add(this.lblErros);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblPalavra);
             this.Controls.Add(this.pbPalavra);
@@ -693,13 +681,12 @@
             this.Controls.Add(this.btnC1);
             this.Controls.Add(this.btnB);
             this.Controls.Add(this.btnA);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pbMenu);
             this.Name = "frmForca";
             this.Text = "frmMontarPalavra";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbPalavra)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -740,10 +727,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblErros;
         private System.Windows.Forms.Label lblTentativas;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pbMenu;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

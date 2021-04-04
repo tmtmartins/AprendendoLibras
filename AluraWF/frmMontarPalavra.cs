@@ -19,6 +19,8 @@ namespace AluraWF {
         public frmForca() {
             InitializeComponent();
             lblDescricao.Left = (Width - lblDescricao.Width) / 2;
+            int tamanhoTela = this.Width;
+            pbMenu.Width = tamanhoTela;
             StartPlay(7, 0);
         }
         protected override void OnPaint(PaintEventArgs e) {
@@ -113,7 +115,8 @@ namespace AluraWF {
             else if (tentativas == 1) {
 
                 DialogResult result;
-                result = MessageBox.Show("Poxa, que pena :/ Você perdeu! \n" +
+                result = MessageBox.Show($"Poxa, que pena :/ Você perdeu! \n" +
+                    "A palavra era: " + pSorteada + "!\n" +
                     "Deseja recomeçar o jogo?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result == System.Windows.Forms.DialogResult.No)

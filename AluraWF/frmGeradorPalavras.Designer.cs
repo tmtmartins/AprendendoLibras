@@ -24,10 +24,11 @@
         /// </summary>
         private void InitializeComponent() {
             this.lblDescricao = new System.Windows.Forms.Label();
-            this.btn_sair = new System.Windows.Forms.Button();
             this.tbPalavra = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.pbGerador = new System.Windows.Forms.PictureBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbGerador)).BeginInit();
             this.SuspendLayout();
             // 
@@ -35,68 +36,88 @@
             // 
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(275, 120);
+            this.lblDescricao.Location = new System.Drawing.Point(275, 71);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(830, 30);
             this.lblDescricao.TabIndex = 0;
             this.lblDescricao.Text = "Insira uma palavra e clique no botão \"buscar\" para ver a datilologia!";
             // 
-            // btn_sair
-            // 
-            this.btn_sair.BackColor = System.Drawing.Color.Gold;
-            this.btn_sair.FlatAppearance.BorderSize = 0;
-            this.btn_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_sair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sair.Location = new System.Drawing.Point(1185, 641);
-            this.btn_sair.Name = "btn_sair";
-            this.btn_sair.Size = new System.Drawing.Size(120, 41);
-            this.btn_sair.TabIndex = 2;
-            this.btn_sair.Text = "VOLTAR";
-            this.btn_sair.UseVisualStyleBackColor = false;
-            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
-            // 
             // tbPalavra
             // 
             this.tbPalavra.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbPalavra.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPalavra.Location = new System.Drawing.Point(144, 182);
+            this.tbPalavra.Location = new System.Drawing.Point(45, 158);
             this.tbPalavra.Name = "tbPalavra";
-            this.tbPalavra.Size = new System.Drawing.Size(907, 37);
+            this.tbPalavra.Size = new System.Drawing.Size(1108, 37);
             this.tbPalavra.TabIndex = 3;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.Gold;
+            this.btnLimpar.BackgroundImage = global::AluraWF.Properties.Resources.clean4;
+            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(1235, 136);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(70, 70);
+            this.btnLimpar.TabIndex = 6;
+            this.btnLimpar.UseCompatibleTextRendering = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pbGerador
+            // 
+            this.pbGerador.BackColor = System.Drawing.Color.Transparent;
+            this.pbGerador.Location = new System.Drawing.Point(45, 240);
+            this.pbGerador.Name = "pbGerador";
+            this.pbGerador.Size = new System.Drawing.Size(1260, 345);
+            this.pbGerador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGerador.TabIndex = 5;
+            this.pbGerador.TabStop = false;
             // 
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Gold;
+            this.btnBuscar.BackgroundImage = global::AluraWF.Properties.Resources.search2;
+            this.btnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBuscar.FlatAppearance.BorderSize = 0;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(1073, 182);
+            this.btnBuscar.Location = new System.Drawing.Point(1159, 136);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(140, 37);
+            this.btnBuscar.Size = new System.Drawing.Size(70, 70);
             this.btnBuscar.TabIndex = 4;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseCompatibleTextRendering = true;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // pbGerador
+            // btnSair
             // 
-            this.pbGerador.BackColor = System.Drawing.Color.Orange;
-            this.pbGerador.Location = new System.Drawing.Point(45, 299);
-            this.pbGerador.Name = "pbGerador";
-            this.pbGerador.Size = new System.Drawing.Size(1260, 327);
-            this.pbGerador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbGerador.TabIndex = 5;
-            this.pbGerador.TabStop = false;
+            this.btnSair.BackColor = System.Drawing.Color.Gold;
+            this.btnSair.BackgroundImage = global::AluraWF.Properties.Resources.voltar2;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Location = new System.Drawing.Point(1235, 613);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(70, 70);
+            this.btnSair.TabIndex = 2;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // frmGeradorPalavras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 711);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.pbGerador);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.tbPalavra);
-            this.Controls.Add(this.btn_sair);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblDescricao);
             this.Name = "frmGeradorPalavras";
             this.Text = "frmGeradorPalavras";
@@ -110,9 +131,10 @@
         #endregion
 
         private System.Windows.Forms.Label lblDescricao;
-        private System.Windows.Forms.Button btn_sair;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.TextBox tbPalavra;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.PictureBox pbGerador;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }

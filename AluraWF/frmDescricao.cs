@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace AluraWF {
         public frmDescricao() {
             InitializeComponent();
 
-            lblDesc.MaximumSize = new Size(1200, 0);
+            lblDesc.MaximumSize = new Size(1000, 0);
             lblDesc.AutoSize = true;
             lblDesc.Text = "Bom, partindo do início, libras, " +
                 "também conhecida como língua de sinais é uma língua " +
@@ -30,13 +31,23 @@ namespace AluraWF {
                 "pode ser compreendida em todo o país, independente da região, " +
                 "enquanto na língua oral, muitas vezes ficamos perdidos devido" +
                 " aos diferentes tipos de sotaques e gírias em um país tão " +
-                "grande e diverso." ;
-
-            lblTitle.Left = (Width - lblTitle.Width) / 2;
-            lblDesc.Left = (Width - lblDesc.Width) / 2;
+                "grande e diverso.";
         }
 
-        private void btn_voltar_Click(object sender, EventArgs e) {
+        protected override void OnPaint(PaintEventArgs e) {
+            /* Cria um objeto do tipo GraphicsPath que modifica a forma
+            do botão em questão*/
+
+            GraphicsPath forma = new GraphicsPath();
+            /* Define como uma elipse o formato do objeto criado
+                atribuindo valores para os parâmetros de posição e tamanho*/
+            forma.AddEllipse(0, 0, btnVoltar.Width, btnVoltar.Height);
+            /* Define a região do botão a ser arredondado, ou seja,
+            o botão em si*/
+            btnVoltar.Region = new Region(forma);
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e) {
             this.Close();
         }
     }
