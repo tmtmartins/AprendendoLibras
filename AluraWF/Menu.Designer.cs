@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Teste));
-            this.lb_title = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.btn_sair = new System.Windows.Forms.Button();
             this.btn_descricao = new System.Windows.Forms.Button();
             this.btn_Alfabeto = new System.Windows.Forms.Button();
@@ -32,17 +32,17 @@
             this.btnMontarPalavra = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lb_title
+            // lblTitulo
             // 
-            this.lb_title.AutoSize = true;
-            this.lb_title.BackColor = System.Drawing.Color.Transparent;
-            this.lb_title.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_title.Location = new System.Drawing.Point(461, 63);
-            this.lb_title.Name = "lb_title";
-            this.lb_title.Size = new System.Drawing.Size(509, 56);
-            this.lb_title.TabIndex = 0;
-            this.lb_title.Text = "APRENDENDO LIBRAS";
-            this.lb_title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(461, 63);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(509, 56);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "APRENDENDO LIBRAS";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btn_sair
             // 
@@ -107,7 +107,7 @@
             this.btnMontarPalavra.Name = "btnMontarPalavra";
             this.btnMontarPalavra.Size = new System.Drawing.Size(264, 92);
             this.btnMontarPalavra.TabIndex = 5;
-            this.btnMontarPalavra.Text = "Monte a Palavra";
+            this.btnMontarPalavra.Text = "Jogo da Forca";
             this.btnMontarPalavra.UseVisualStyleBackColor = false;
             this.btnMontarPalavra.Click += new System.EventHandler(this.btnMontarPalavra_Click);
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.btn_Alfabeto);
             this.Controls.Add(this.btn_descricao);
             this.Controls.Add(this.btn_sair);
-            this.Controls.Add(this.lb_title);
+            this.Controls.Add(this.lblTitulo);
             this.Name = "frm_Teste";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "APRENDENDO LIBRAS";
@@ -136,7 +136,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lb_title;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btn_sair;
         private System.Windows.Forms.Button btn_descricao;
         private System.Windows.Forms.Button btn_Alfabeto;

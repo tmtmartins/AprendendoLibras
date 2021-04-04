@@ -75,6 +75,7 @@ namespace AluraWF {
                 if (btn.ToString() == botao.ToString()) {
                     botao.BackColor = Color.MidnightBlue;
                 }
+
                 else {
                     botao.BackColor = Color.Gold;
                 }
@@ -89,6 +90,7 @@ namespace AluraWF {
             LimpaCorButton(item);
             pbAlfabeto.Load($"../../Imagens/Alfabeto/{item}.png");
         }
+
         private void btnA_Click(object sender, EventArgs e) {
             onClick("A");
         }

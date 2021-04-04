@@ -12,6 +12,7 @@ namespace AluraWF {
     public partial class frm_Teste : Form {
         public frm_Teste() {
             InitializeComponent();
+            lblTitulo.Left = (Width - lblTitulo.Width) / 2;
         }
 
         private void Teste_Load(object sender, EventArgs e) {
@@ -41,8 +42,8 @@ namespace AluraWF {
         }
 
         private void btnMontarPalavra_Click(object sender, EventArgs e) {
-            frmMontarPalavra montar = new frmMontarPalavra();
-            montar.Show();
+            frmForca forca = new frmForca();
+            forca.Show();
         }
 
         private void btnGerador_Click(object sender, EventArgs e) {

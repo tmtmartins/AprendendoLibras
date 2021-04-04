@@ -31,6 +31,9 @@ namespace AluraWF {
                 "enquanto na língua oral, muitas vezes ficamos perdidos devido" +
                 " aos diferentes tipos de sotaques e gírias em um país tão " +
                 "grande e diverso." ;
+
+            lblTitle.Left = (Width - lblTitle.Width) / 2;
+            lblDesc.Left = (Width - lblDesc.Width) / 2;
         }
 
         private void btn_voltar_Click(object sender, EventArgs e) {
