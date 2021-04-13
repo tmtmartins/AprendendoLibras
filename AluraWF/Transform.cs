@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,20 @@ using System.Windows.Forms;
 
 namespace AluraWF {
     class Transform {
+
+        public static void ArredondaButton(Button botao) {
+
+            GraphicsPath forma = new GraphicsPath();
+            /* Define como uma elipse o formato do objeto criado
+             atribuindo valores para os parâmetros de posição e tamanho*/
+
+            forma.AddEllipse(0, 0, botao.Width, botao.Height);
+            /* Define a região do botão a ser arredondado, ou seja,
+            o botão em si*/
+
+            botao.Region = new Region(forma);
+
+        }
 
         public static void SelecionarImagens(string palavra, PictureBox pb) {
             char[] arr = null;

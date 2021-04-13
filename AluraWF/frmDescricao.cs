@@ -32,19 +32,8 @@ namespace AluraWF {
                 "enquanto na língua oral, muitas vezes ficamos perdidos devido" +
                 " aos diferentes tipos de sotaques e gírias em um país tão " +
                 "grande e diverso.";
-        }
 
-        protected override void OnPaint(PaintEventArgs e) {
-            /* Cria um objeto do tipo GraphicsPath que modifica a forma
-            do botão em questão*/
-
-            GraphicsPath forma = new GraphicsPath();
-            /* Define como uma elipse o formato do objeto criado
-                atribuindo valores para os parâmetros de posição e tamanho*/
-            forma.AddEllipse(0, 0, btnVoltar.Width, btnVoltar.Height);
-            /* Define a região do botão a ser arredondado, ou seja,
-            o botão em si*/
-            btnVoltar.Region = new Region(forma);
+            Transform.ArredondaButton(btnVoltar);
         }
 
         private void btnVoltar_Click(object sender, EventArgs e) {

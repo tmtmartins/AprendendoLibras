@@ -112,6 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1350, 711);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.pbGerador);
@@ -120,7 +121,7 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblDescricao);
             this.Name = "frmGeradorPalavras";
-            this.Text = "frmGeradorPalavras";
+            this.Text = "Gerador de Palavras";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbGerador)).EndInit();
             this.ResumeLayout(false);

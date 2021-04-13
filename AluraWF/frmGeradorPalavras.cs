@@ -16,25 +16,14 @@ namespace AluraWF {
         public frmGeradorPalavras() {
             InitializeComponent();
             lblDescricao.Left = (Width - lblDescricao.Width) / 2;
-        }
-
-        protected override void OnPaint(PaintEventArgs e) {
-            /* Cria um objeto do tipo GraphicsPath que modifica a forma
-            do botão em questão*/
-
-            var botoes = new[] { btnBuscar, btnSair, btnLimpar};
-            //colocando todos os buttons em um array
-
+            
+            var botoes = new[] { btnBuscar, btnSair, btnLimpar };
+            //colocando todos os buttons em um array e chamando a função ArredondaButton
             foreach (var botao in botoes) {
-                GraphicsPath forma = new GraphicsPath();
-                /* Define como uma elipse o formato do objeto criado
-                 atribuindo valores para os parâmetros de posição e tamanho*/
-                forma.AddEllipse(0, 0, botao.Width, botao.Height);
-                /* Define a região do botão a ser arredondado, ou seja,
-                o botão em si*/
-                botao.Region = new Region(forma);
+                Transform.ArredondaButton(botao);
             }
         }
+
 
         private void btn_sair_Click(object sender, EventArgs e) {
             this.Close();
@@ -46,6 +35,13 @@ namespace AluraWF {
                 MessageBox.Show("Insira uma palavra ou número na caixa de texto para buscar.",
                     "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            else if (tbPalavra.Text.Length > 15) {
+                MessageBox.Show("A palavra ou frase inserida não pode conter mais de 15 caracteres.",
+                    "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                tbPalavra.Clear();
+            }
+            
+            
             else if (tbPalavra.Text.Contains("|") ^
                     tbPalavra.Text.Contains("?") ^
                     tbPalavra.Text.Contains("'") ^

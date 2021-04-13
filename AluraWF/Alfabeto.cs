@@ -13,27 +13,15 @@ namespace AluraWF {
     public partial class frmAlfabeto : Form {
         public frmAlfabeto() {
             InitializeComponent();
-        }
-
-        protected override void OnPaint(PaintEventArgs e) {
-            /* Cria um objeto do tipo GraphicsPath que modifica a forma
-            do botão em questão*/
 
             var botoes = new[] { btnA, btnB, btnC1, btnC2, btnD, btnE,
             btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP,
             btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ, btnMais,
             btnMenos, btnMulti, btnDiv, btn0, btn1, btn2, btn3, btn4, btn5, btn6,
             btn7, btn8, btn9};
-            //colocando todos os buttons em um array
 
             foreach (var botao in botoes) {
-                GraphicsPath forma = new GraphicsPath();
-                /* Define como uma elipse o formato do objeto criado
-                 atribuindo valores para os parâmetros de posição e tamanho*/
-                forma.AddEllipse(0, 0, botao.Width, botao.Height);
-                /* Define a região do botão a ser arredondado, ou seja,
-                o botão em si*/
-                botao.Region = new Region(forma);
+                Transform.ArredondaButton(botao);
             }
         }
 

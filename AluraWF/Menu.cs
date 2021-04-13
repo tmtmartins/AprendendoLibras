@@ -14,19 +14,7 @@ namespace AluraWF {
         public frm_Teste() {
             InitializeComponent();
             lblTitulo.Left = (Width - lblTitulo.Width) / 2;
-        }
-
-        protected override void OnPaint(PaintEventArgs e) {
-            /* Cria um objeto do tipo GraphicsPath que modifica a forma
-            do botão em questão*/
-
-            GraphicsPath forma = new GraphicsPath();
-            /* Define como uma elipse o formato do objeto criado
-                atribuindo valores para os parâmetros de posição e tamanho*/
-            forma.AddEllipse(0, 0, btnSair.Width, btnSair.Height);
-            /* Define a região do botão a ser arredondado, ou seja,
-            o botão em si*/
-            btnSair.Region = new Region(forma);
+            Transform.ArredondaButton(btnSair);
         }
 
         private void Teste_Load(object sender, EventArgs e) {
