@@ -15,6 +15,8 @@ namespace AluraWF {
     public partial class frmGeradorPalavras : Form {
         public frmGeradorPalavras() {
             InitializeComponent();
+            this.BackColor = Color.FromArgb(38, 41, 44);
+            lblDescricao.ForeColor = Color.White;
             lblDescricao.Left = (Width - lblDescricao.Width) / 2;
             
             var botoes = new[] { btnBuscar, btnSair, btnLimpar };

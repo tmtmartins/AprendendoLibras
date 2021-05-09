@@ -1,5 +1,5 @@
 ﻿namespace AluraWF {
-    partial class frm_Teste {
+    partial class frmMenu {
         /// <summary>
         /// Variável de designer necessária.
         /// </summary>
@@ -23,7 +23,7 @@
         /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent() {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Teste));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.btn_descricao = new System.Windows.Forms.Button();
@@ -150,7 +150,7 @@
             this.btnJogoMemoria.Text = "Jogo da Memória";
             this.btnJogoMemoria.UseVisualStyleBackColor = false;
             // 
-            // frm_Teste
+            // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,7 +165,8 @@
             this.Controls.Add(this.btn_descricao);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "frm_Teste";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "APRENDENDO LIBRAS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

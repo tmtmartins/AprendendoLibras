@@ -14,6 +14,10 @@ namespace AluraWF {
         public frmAlfabeto() {
             InitializeComponent();
 
+            this.BackColor = Color.FromArgb(38, 41, 44);
+            btnVoltar.BackColor = Color.FromArgb(74, 88, 89);
+            pbAlfabeto.BackColor = Color.FromArgb(244, 184, 96);
+
             var botoes = new[] { btnA, btnB, btnC1, btnC2, btnD, btnE,
             btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP,
             btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ, btnMais,
@@ -21,7 +25,8 @@ namespace AluraWF {
             btn7, btn8, btn9};
 
             foreach (var botao in botoes) {
-                Transform.ArredondaButton(botao);
+                
+                botao.BackColor = Color.FromArgb(38, 41, 44);
             }
         }
 
@@ -61,11 +66,12 @@ namespace AluraWF {
 
             foreach (var botao in botoes) {
                 if (btn.ToString() == botao.ToString()) {
-                    botao.BackColor = Color.MidnightBlue;
+                    botao.BackColor = Color.FromArgb(244, 184, 96);
+                    //botao.BackColor = Color.FromArgb(170, 125, 206);
                 }
 
                 else {
-                    botao.BackColor = Color.Gold;
+                    botao.BackColor = Color.FromArgb(38, 41, 44);
                 }
             }
         }

@@ -18,17 +18,32 @@ namespace AluraWF {
 
         public frmForca() {
             InitializeComponent();
+
+            this.BackColor = Color.FromArgb(38, 41, 44);
+            pbMenu.BackColor = Color.FromArgb(74, 88, 89);
+            lblErrosDesc.BackColor = Color.FromArgb(74, 88, 89);
+            lblErros.BackColor = Color.FromArgb(74, 88, 89);
+            lblTentativasDesc.BackColor = Color.FromArgb(74, 88, 89);
+            lblTentativas.BackColor = Color.FromArgb(74, 88, 89);
+            lblRecomeçar.BackColor = Color.FromArgb(74, 88, 89);
+            btnFacil.BackColor = Color.FromArgb(244, 184, 96);
+            btnDificil.BackColor = Color.FromArgb(244, 184, 96);
+            btnMedio.BackColor = Color.FromArgb(244, 184, 96);
+
+            var botoes = new[] { btnA, btnB, btnC1, btnC2, btnD, btnE,
+                btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP,
+                btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ};
+
+            foreach (var botao in botoes) {
+                botao.BackColor = Color.FromArgb(38, 41, 44);
+            }
+
             lblDescricao.Left = (Width - lblDescricao.Width) / 2;
             int tamanhoTela = this.Width;
             pbMenu.Width = tamanhoTela;
             StartPlay(7, 0);
 
-            var botoes = new[] { btnA, btnB, btnC1, btnC2, btnD, btnE,
-            btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP,
-            btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ, btnVoltar};
-            foreach (var botao in botoes) {
-                Transform.ArredondaButton(botao);
-            }
+            Transform.ArredondaButton(btnVoltar);
         }
 
         static string GerarPalavra() {

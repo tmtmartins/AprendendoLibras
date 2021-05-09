@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AluraWF {
-    public partial class frm_Teste : Form {
-        public frm_Teste() {
+    public partial class frmMenu : Form {
+        public frmMenu() {
             InitializeComponent();
             lblTitulo.Left = (Width - lblTitulo.Width) / 2;
             Transform.ArredondaButton(btnSair);

@@ -14,7 +14,12 @@ namespace AluraWF {
         public frmDescricao() {
             InitializeComponent();
 
-            lblDesc.MaximumSize = new Size(1000, 0);
+            this.BackColor = Color.FromArgb(38, 41, 44);
+            lblTitle.ForeColor = Color.FromArgb(244, 184, 96);
+            lblDesc.ForeColor = Color.White;
+
+
+            lblDesc.MaximumSize = new Size(1200, 0);
             lblDesc.AutoSize = true;
             lblDesc.Text = "Bom, partindo do início, libras, " +
                 "também conhecida como língua de sinais é uma língua " +
@@ -33,6 +38,8 @@ namespace AluraWF {
                 " aos diferentes tipos de sotaques e gírias em um país tão " +
                 "grande e diverso.";
 
+            lblDesc.Left = (Width - lblDesc.Width) / 2;
+            lblTitle.Left = (Width - lblTitle.Width) / 2;
             Transform.ArredondaButton(btnVoltar);
         }
 

@@ -13,7 +13,7 @@ namespace AluraWF {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Teste());
+            Application.Run(new frmMenu());
         }
     }
 }

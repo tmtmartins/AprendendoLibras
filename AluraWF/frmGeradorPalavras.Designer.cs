@@ -36,7 +36,7 @@
             // 
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(275, 71);
+            this.lblDescricao.Location = new System.Drawing.Point(275, 96);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(830, 30);
             this.lblDescricao.TabIndex = 0;
@@ -46,9 +46,9 @@
             // 
             this.tbPalavra.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbPalavra.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPalavra.Location = new System.Drawing.Point(45, 158);
+            this.tbPalavra.Location = new System.Drawing.Point(74, 175);
             this.tbPalavra.Name = "tbPalavra";
-            this.tbPalavra.Size = new System.Drawing.Size(1108, 37);
+            this.tbPalavra.Size = new System.Drawing.Size(1079, 37);
             this.tbPalavra.TabIndex = 3;
             // 
             // btnLimpar
@@ -59,7 +59,7 @@
             this.btnLimpar.FlatAppearance.BorderSize = 0;
             this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(1235, 136);
+            this.btnLimpar.Location = new System.Drawing.Point(1235, 158);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(70, 70);
             this.btnLimpar.TabIndex = 6;
@@ -70,9 +70,9 @@
             // pbGerador
             // 
             this.pbGerador.BackColor = System.Drawing.Color.Transparent;
-            this.pbGerador.Location = new System.Drawing.Point(45, 240);
+            this.pbGerador.Location = new System.Drawing.Point(74, 272);
             this.pbGerador.Name = "pbGerador";
-            this.pbGerador.Size = new System.Drawing.Size(1260, 345);
+            this.pbGerador.Size = new System.Drawing.Size(1231, 368);
             this.pbGerador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbGerador.TabIndex = 5;
             this.pbGerador.TabStop = false;
@@ -85,7 +85,7 @@
             this.btnBuscar.FlatAppearance.BorderSize = 0;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(1159, 136);
+            this.btnBuscar.Location = new System.Drawing.Point(1159, 158);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(70, 70);
             this.btnBuscar.TabIndex = 4;
@@ -101,7 +101,7 @@
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(1235, 613);
+            this.btnSair.Location = new System.Drawing.Point(1235, 658);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(70, 70);
             this.btnSair.TabIndex = 2;
@@ -113,13 +113,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1350, 711);
+            this.ClientSize = new System.Drawing.Size(1370, 747);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.pbGerador);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.tbPalavra);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblDescricao);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmGeradorPalavras";
             this.Text = "Gerador de Palavras";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

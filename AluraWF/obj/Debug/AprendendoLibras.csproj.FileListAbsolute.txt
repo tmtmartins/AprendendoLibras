@@ -4,7 +4,6 @@ C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\bin\Debug\A
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AprendendoLibras.csprojAssemblyReference.cache
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frmAlfabeto.resources
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frmGeradorPalavras.resources
-C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frm_Teste.resources
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.Properties.Resources.resources
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AprendendoLibras.csproj.GenerateResource.cache
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AprendendoLibras.csproj.CoreCompileInputs.cache
@@ -12,3 +11,4 @@ C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\A
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.pdb
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frmForca.resources
 C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frmDescricao.resources
+C:\Users\Tamires\Desktop\Tamires\USC\C#\2º Semestre\AluraWF\AluraWF\obj\Debug\AluraWF.frmMenu.resources
