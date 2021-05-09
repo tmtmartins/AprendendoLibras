@@ -58,5 +58,10 @@ namespace AluraWF {
             frmGeradorPalavras gerador = new frmGeradorPalavras();
             gerador.Show();
         }
+
+        private void btnHistoria_Click(object sender, EventArgs e) {
+            frmHistoria hist = new frmHistoria();
+            hist.Show();
+        }
     }
 }

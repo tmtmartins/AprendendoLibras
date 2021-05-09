@@ -135,6 +135,7 @@
             this.btnHistoria.TabIndex = 6;
             this.btnHistoria.Text = "História";
             this.btnHistoria.UseVisualStyleBackColor = false;
+            this.btnHistoria.Click += new System.EventHandler(this.btnHistoria_Click);
             // 
             // btnJogoMemoria
             // 
