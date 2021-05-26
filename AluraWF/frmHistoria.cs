@@ -45,9 +45,8 @@ namespace AluraWF {
                 ", a educação de todos os brasileiros foi reconhecida como um direito na Constituição " +
                 "de 1988, e isso abriu espaço para que leis fossem regulamentadas para garantir o acesso " +
                 "do surdo a uma educação pública e de qualidade.Assim, por exemplo, ao aluno surdo ficou " +
-                "garantido, por lei, o direito de um acompanhamento especializado. A regulamentação de " +
-                "leis reconhecendo a Libras e os direitos da comunidade surda brasileira é importante " +
-                "pois contribui para garantir a inclusão dessa comunidade. \n\nAlgumas datas importantes: " +
+                "garantido, por lei, o direito de um acompanhamento especializado, o que é importante para" +
+                " garantir a inclusão dessa comunidade. \n\nAlgumas datas importantes: " +
                 "\n2004: Lei que determina o uso de recursos visuais e legendas nas propagandas oficiais " +
                 "do governo; \n2008: Instituído o Dia Nacional do Surdo, comemorado em 26 de " +
                 "Setembro, considerado o mês dos surdos;\n2010: Foi regulamentada a profissão de " +
