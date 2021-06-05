@@ -30,4 +30,3 @@ C:\Users\Tamires\Desktop\Tamires\AprendendoLibras-master\AprendendoLibras-master
 C:\Users\Tamires\Desktop\Tamires\AprendendoLibras-master\AprendendoLibras-master\AluraWF\obj\Release\AprendendoLibras.csproj.CoreCompileInputs.cache
 C:\Users\Tamires\Desktop\Tamires\AprendendoLibras-master\AprendendoLibras-master\AluraWF\obj\Release\Aprendendo Libras.exe
 C:\Users\Tamires\Desktop\Tamires\AprendendoLibras-master\AprendendoLibras-master\AluraWF\obj\Release\Aprendendo Libras.pdb
-C:\Users\Tamires\Desktop\Tamires\AprendendoLibras-master\AprendendoLibras-master\AluraWF\obj\Release\AprendendoLibras.csprojAssemblyReference.cache

@@ -37,7 +37,7 @@ namespace AluraWF {
             foreach (PictureBox item in Controls.OfType<PictureBox>()) {
                 Random rdm = new Random();
                 int[] xP = { 34, 140, 246, 352, 458, 564, 670, 776, 882 };
-                int[] yP = { 56, 162, 269, 375, 481, 587 };
+                int[] yP = { 31, 137, 244, 350, 456, 562 };
 
                 Repetir:
                 var X = xP[rdm.Next(0, xP.Length)];

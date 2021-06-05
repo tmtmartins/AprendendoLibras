@@ -142,7 +142,7 @@
             // pictureBox50
             // 
             this.pictureBox50.Image = global::AluraWF.Properties.Resources.Z;
-            this.pictureBox50.Location = new System.Drawing.Point(882, 587);
+            this.pictureBox50.Location = new System.Drawing.Point(882, 562);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(100, 100);
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -154,7 +154,7 @@
             // pictureBox51
             // 
             this.pictureBox51.Image = global::AluraWF.Properties.Resources.V;
-            this.pictureBox51.Location = new System.Drawing.Point(882, 481);
+            this.pictureBox51.Location = new System.Drawing.Point(882, 456);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(100, 100);
             this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,7 +166,7 @@
             // pictureBox52
             // 
             this.pictureBox52.Image = global::AluraWF.Properties.Resources.Q;
-            this.pictureBox52.Location = new System.Drawing.Point(882, 375);
+            this.pictureBox52.Location = new System.Drawing.Point(882, 350);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(100, 100);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -178,7 +178,7 @@
             // pictureBox53
             // 
             this.pictureBox53.Image = global::AluraWF.Properties.Resources.M;
-            this.pictureBox53.Location = new System.Drawing.Point(882, 269);
+            this.pictureBox53.Location = new System.Drawing.Point(882, 244);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(100, 100);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -190,7 +190,7 @@
             // pictureBox54
             // 
             this.pictureBox54.Image = global::AluraWF.Properties.Resources.H;
-            this.pictureBox54.Location = new System.Drawing.Point(882, 162);
+            this.pictureBox54.Location = new System.Drawing.Point(882, 137);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(100, 100);
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -202,7 +202,7 @@
             // pictureBox42
             // 
             this.pictureBox42.Image = global::AluraWF.Properties.Resources.Z;
-            this.pictureBox42.Location = new System.Drawing.Point(776, 587);
+            this.pictureBox42.Location = new System.Drawing.Point(776, 562);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(100, 100);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -214,7 +214,7 @@
             // pictureBox43
             // 
             this.pictureBox43.Image = global::AluraWF.Properties.Resources.Y;
-            this.pictureBox43.Location = new System.Drawing.Point(670, 587);
+            this.pictureBox43.Location = new System.Drawing.Point(670, 562);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(100, 100);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -226,7 +226,7 @@
             // pictureBox44
             // 
             this.pictureBox44.Image = global::AluraWF.Properties.Resources.Y;
-            this.pictureBox44.Location = new System.Drawing.Point(564, 587);
+            this.pictureBox44.Location = new System.Drawing.Point(564, 562);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(100, 100);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -238,7 +238,7 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = global::AluraWF.Properties.Resources.X;
-            this.pictureBox45.Location = new System.Drawing.Point(458, 587);
+            this.pictureBox45.Location = new System.Drawing.Point(458, 562);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(100, 100);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -250,7 +250,7 @@
             // pictureBox46
             // 
             this.pictureBox46.Image = global::AluraWF.Properties.Resources.X;
-            this.pictureBox46.Location = new System.Drawing.Point(352, 587);
+            this.pictureBox46.Location = new System.Drawing.Point(352, 562);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(100, 100);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -262,7 +262,7 @@
             // pictureBox47
             // 
             this.pictureBox47.Image = global::AluraWF.Properties.Resources.W;
-            this.pictureBox47.Location = new System.Drawing.Point(246, 587);
+            this.pictureBox47.Location = new System.Drawing.Point(246, 562);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(100, 100);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -274,7 +274,7 @@
             // pictureBox48
             // 
             this.pictureBox48.Image = global::AluraWF.Properties.Resources.W;
-            this.pictureBox48.Location = new System.Drawing.Point(140, 587);
+            this.pictureBox48.Location = new System.Drawing.Point(140, 562);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(100, 100);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -286,7 +286,7 @@
             // pictureBox49
             // 
             this.pictureBox49.Image = global::AluraWF.Properties.Resources.V;
-            this.pictureBox49.Location = new System.Drawing.Point(34, 587);
+            this.pictureBox49.Location = new System.Drawing.Point(34, 562);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(100, 100);
             this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -298,7 +298,7 @@
             // pictureBox34
             // 
             this.pictureBox34.Image = global::AluraWF.Properties.Resources.U;
-            this.pictureBox34.Location = new System.Drawing.Point(776, 481);
+            this.pictureBox34.Location = new System.Drawing.Point(776, 456);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(100, 100);
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -310,7 +310,7 @@
             // pictureBox35
             // 
             this.pictureBox35.Image = global::AluraWF.Properties.Resources.U;
-            this.pictureBox35.Location = new System.Drawing.Point(670, 481);
+            this.pictureBox35.Location = new System.Drawing.Point(670, 456);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(100, 100);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -322,7 +322,7 @@
             // pictureBox36
             // 
             this.pictureBox36.Image = global::AluraWF.Properties.Resources.T;
-            this.pictureBox36.Location = new System.Drawing.Point(564, 481);
+            this.pictureBox36.Location = new System.Drawing.Point(564, 456);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(100, 100);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -334,7 +334,7 @@
             // pictureBox37
             // 
             this.pictureBox37.Image = global::AluraWF.Properties.Resources.T;
-            this.pictureBox37.Location = new System.Drawing.Point(458, 481);
+            this.pictureBox37.Location = new System.Drawing.Point(458, 456);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(100, 100);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -346,7 +346,7 @@
             // pictureBox38
             // 
             this.pictureBox38.Image = global::AluraWF.Properties.Resources.S;
-            this.pictureBox38.Location = new System.Drawing.Point(352, 481);
+            this.pictureBox38.Location = new System.Drawing.Point(352, 456);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(100, 100);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -358,7 +358,7 @@
             // pictureBox39
             // 
             this.pictureBox39.Image = global::AluraWF.Properties.Resources.S;
-            this.pictureBox39.Location = new System.Drawing.Point(246, 481);
+            this.pictureBox39.Location = new System.Drawing.Point(246, 456);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(100, 100);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -370,7 +370,7 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = global::AluraWF.Properties.Resources.R;
-            this.pictureBox40.Location = new System.Drawing.Point(140, 481);
+            this.pictureBox40.Location = new System.Drawing.Point(140, 456);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(100, 100);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -382,7 +382,7 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = global::AluraWF.Properties.Resources.R;
-            this.pictureBox41.Location = new System.Drawing.Point(34, 481);
+            this.pictureBox41.Location = new System.Drawing.Point(34, 456);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(100, 100);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -394,7 +394,7 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::AluraWF.Properties.Resources.Q;
-            this.pictureBox26.Location = new System.Drawing.Point(776, 375);
+            this.pictureBox26.Location = new System.Drawing.Point(776, 350);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(100, 100);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -406,7 +406,7 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::AluraWF.Properties.Resources.P;
-            this.pictureBox27.Location = new System.Drawing.Point(670, 375);
+            this.pictureBox27.Location = new System.Drawing.Point(670, 350);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(100, 100);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -418,7 +418,7 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::AluraWF.Properties.Resources.P;
-            this.pictureBox28.Location = new System.Drawing.Point(564, 375);
+            this.pictureBox28.Location = new System.Drawing.Point(564, 350);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(100, 100);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -430,7 +430,7 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::AluraWF.Properties.Resources.O;
-            this.pictureBox29.Location = new System.Drawing.Point(458, 375);
+            this.pictureBox29.Location = new System.Drawing.Point(458, 350);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(100, 100);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -442,7 +442,7 @@
             // pictureBox30
             // 
             this.pictureBox30.Image = global::AluraWF.Properties.Resources.O;
-            this.pictureBox30.Location = new System.Drawing.Point(352, 375);
+            this.pictureBox30.Location = new System.Drawing.Point(352, 350);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(100, 100);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -454,7 +454,7 @@
             // pictureBox31
             // 
             this.pictureBox31.Image = global::AluraWF.Properties.Resources.N;
-            this.pictureBox31.Location = new System.Drawing.Point(246, 375);
+            this.pictureBox31.Location = new System.Drawing.Point(246, 350);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(100, 100);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -466,7 +466,7 @@
             // pictureBox32
             // 
             this.pictureBox32.Image = global::AluraWF.Properties.Resources.N;
-            this.pictureBox32.Location = new System.Drawing.Point(140, 375);
+            this.pictureBox32.Location = new System.Drawing.Point(140, 350);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(100, 100);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -478,7 +478,7 @@
             // pictureBox33
             // 
             this.pictureBox33.Image = global::AluraWF.Properties.Resources.M;
-            this.pictureBox33.Location = new System.Drawing.Point(34, 375);
+            this.pictureBox33.Location = new System.Drawing.Point(34, 350);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(100, 100);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -490,7 +490,7 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = global::AluraWF.Properties.Resources.L;
-            this.pictureBox18.Location = new System.Drawing.Point(776, 269);
+            this.pictureBox18.Location = new System.Drawing.Point(776, 244);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(100, 100);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -502,7 +502,7 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = global::AluraWF.Properties.Resources.L;
-            this.pictureBox19.Location = new System.Drawing.Point(670, 269);
+            this.pictureBox19.Location = new System.Drawing.Point(670, 244);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(100, 100);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -514,7 +514,7 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::AluraWF.Properties.Resources.K;
-            this.pictureBox20.Location = new System.Drawing.Point(564, 269);
+            this.pictureBox20.Location = new System.Drawing.Point(564, 244);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(100, 100);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -526,7 +526,7 @@
             // pictureBox21
             // 
             this.pictureBox21.Image = global::AluraWF.Properties.Resources.K;
-            this.pictureBox21.Location = new System.Drawing.Point(458, 269);
+            this.pictureBox21.Location = new System.Drawing.Point(458, 244);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(100, 100);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -538,7 +538,7 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = global::AluraWF.Properties.Resources.J;
-            this.pictureBox22.Location = new System.Drawing.Point(352, 269);
+            this.pictureBox22.Location = new System.Drawing.Point(352, 244);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(100, 100);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -550,7 +550,7 @@
             // pictureBox23
             // 
             this.pictureBox23.Image = global::AluraWF.Properties.Resources.J;
-            this.pictureBox23.Location = new System.Drawing.Point(246, 269);
+            this.pictureBox23.Location = new System.Drawing.Point(246, 244);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(100, 100);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -562,7 +562,7 @@
             // pictureBox24
             // 
             this.pictureBox24.Image = global::AluraWF.Properties.Resources.I;
-            this.pictureBox24.Location = new System.Drawing.Point(140, 269);
+            this.pictureBox24.Location = new System.Drawing.Point(140, 244);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(100, 100);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -574,7 +574,7 @@
             // pictureBox25
             // 
             this.pictureBox25.Image = global::AluraWF.Properties.Resources.I;
-            this.pictureBox25.Location = new System.Drawing.Point(34, 269);
+            this.pictureBox25.Location = new System.Drawing.Point(34, 244);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(100, 100);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -586,7 +586,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::AluraWF.Properties.Resources.H;
-            this.pictureBox10.Location = new System.Drawing.Point(776, 162);
+            this.pictureBox10.Location = new System.Drawing.Point(776, 137);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(100, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -598,7 +598,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::AluraWF.Properties.Resources.G;
-            this.pictureBox11.Location = new System.Drawing.Point(670, 162);
+            this.pictureBox11.Location = new System.Drawing.Point(670, 137);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(100, 100);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -610,7 +610,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::AluraWF.Properties.Resources.G;
-            this.pictureBox12.Location = new System.Drawing.Point(564, 162);
+            this.pictureBox12.Location = new System.Drawing.Point(564, 137);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(100, 100);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -622,7 +622,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::AluraWF.Properties.Resources.F;
-            this.pictureBox13.Location = new System.Drawing.Point(458, 162);
+            this.pictureBox13.Location = new System.Drawing.Point(458, 137);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(100, 100);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -634,7 +634,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::AluraWF.Properties.Resources.F;
-            this.pictureBox14.Location = new System.Drawing.Point(352, 162);
+            this.pictureBox14.Location = new System.Drawing.Point(352, 137);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(100, 100);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -646,7 +646,7 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::AluraWF.Properties.Resources.E;
-            this.pictureBox15.Location = new System.Drawing.Point(246, 162);
+            this.pictureBox15.Location = new System.Drawing.Point(246, 137);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(100, 100);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -658,7 +658,7 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::AluraWF.Properties.Resources.E;
-            this.pictureBox16.Location = new System.Drawing.Point(140, 162);
+            this.pictureBox16.Location = new System.Drawing.Point(140, 137);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(100, 100);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -670,7 +670,7 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::AluraWF.Properties.Resources.D;
-            this.pictureBox17.Location = new System.Drawing.Point(34, 162);
+            this.pictureBox17.Location = new System.Drawing.Point(34, 137);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(100, 100);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -682,7 +682,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::AluraWF.Properties.Resources.D;
-            this.pictureBox7.Location = new System.Drawing.Point(882, 56);
+            this.pictureBox7.Location = new System.Drawing.Point(882, 31);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 100);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -694,7 +694,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::AluraWF.Properties.Resources.C2;
-            this.pictureBox8.Location = new System.Drawing.Point(776, 56);
+            this.pictureBox8.Location = new System.Drawing.Point(776, 31);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 100);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -706,7 +706,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::AluraWF.Properties.Resources.C2;
-            this.pictureBox9.Location = new System.Drawing.Point(670, 56);
+            this.pictureBox9.Location = new System.Drawing.Point(670, 31);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(100, 100);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -718,7 +718,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AluraWF.Properties.Resources.C1;
-            this.pictureBox4.Location = new System.Drawing.Point(564, 56);
+            this.pictureBox4.Location = new System.Drawing.Point(564, 31);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -730,7 +730,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::AluraWF.Properties.Resources.C1;
-            this.pictureBox5.Location = new System.Drawing.Point(458, 56);
+            this.pictureBox5.Location = new System.Drawing.Point(458, 31);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 100);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -742,7 +742,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::AluraWF.Properties.Resources.B;
-            this.pictureBox6.Location = new System.Drawing.Point(352, 56);
+            this.pictureBox6.Location = new System.Drawing.Point(352, 31);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 100);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -754,7 +754,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::AluraWF.Properties.Resources.B;
-            this.pictureBox3.Location = new System.Drawing.Point(246, 56);
+            this.pictureBox3.Location = new System.Drawing.Point(246, 31);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 100);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -766,7 +766,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AluraWF.Properties.Resources.A;
-            this.pictureBox2.Location = new System.Drawing.Point(140, 56);
+            this.pictureBox2.Location = new System.Drawing.Point(140, 31);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -778,7 +778,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AluraWF.Properties.Resources.A;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(34, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -795,7 +795,7 @@
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(1041, 617);
+            this.btnSair.Location = new System.Drawing.Point(1041, 592);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(272, 70);
             this.btnSair.TabIndex = 3;
@@ -809,7 +809,7 @@
             this.lblDesc.BackColor = System.Drawing.Color.Transparent;
             this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDesc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblDesc.Location = new System.Drawing.Point(1038, 251);
+            this.lblDesc.Location = new System.Drawing.Point(1033, 212);
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.Size = new System.Drawing.Size(275, 44);
             this.lblDesc.TabIndex = 58;
@@ -819,7 +819,7 @@
             // 
             this.pnMovimentos.BackColor = System.Drawing.Color.Transparent;
             this.pnMovimentos.Controls.Add(this.lblMovimentos);
-            this.pnMovimentos.Location = new System.Drawing.Point(1046, 298);
+            this.pnMovimentos.Location = new System.Drawing.Point(1041, 259);
             this.pnMovimentos.Name = "pnMovimentos";
             this.pnMovimentos.Size = new System.Drawing.Size(257, 228);
             this.pnMovimentos.TabIndex = 61;
@@ -829,7 +829,7 @@
             this.lblMovimentos.AutoSize = true;
             this.lblMovimentos.Font = new System.Drawing.Font("Century Gothic", 99.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMovimentos.ForeColor = System.Drawing.Color.White;
-            this.lblMovimentos.Location = new System.Drawing.Point(61, 29);
+            this.lblMovimentos.Location = new System.Drawing.Point(59, 32);
             this.lblMovimentos.Name = "lblMovimentos";
             this.lblMovimentos.Size = new System.Drawing.Size(141, 157);
             this.lblMovimentos.TabIndex = 60;
@@ -842,7 +842,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1354, 751);
+            this.ClientSize = new System.Drawing.Size(1370, 696);
             this.Controls.Add(this.pnMovimentos);
             this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.pictureBox50);
@@ -901,10 +901,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSair);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmJogoDaMemoria";
-            this.Text = "frmJogoDaMemoria";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Jogo da Memória";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();

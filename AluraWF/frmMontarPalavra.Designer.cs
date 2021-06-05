@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmForca));
             this.btnC2 = new System.Windows.Forms.Button();
             this.btnX = new System.Windows.Forms.Button();
             this.btnR = new System.Windows.Forms.Button();
@@ -76,7 +77,7 @@
             this.btnC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnC2.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC2.ForeColor = System.Drawing.Color.White;
-            this.btnC2.Location = new System.Drawing.Point(333, 539);
+            this.btnC2.Location = new System.Drawing.Point(333, 490);
             this.btnC2.Name = "btnC2";
             this.btnC2.Size = new System.Drawing.Size(80, 80);
             this.btnC2.TabIndex = 72;
@@ -91,7 +92,7 @@
             this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnX.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.Color.White;
-            this.btnX.Location = new System.Drawing.Point(934, 625);
+            this.btnX.Location = new System.Drawing.Point(934, 576);
             this.btnX.Name = "btnX";
             this.btnX.Size = new System.Drawing.Size(80, 80);
             this.btnX.TabIndex = 71;
@@ -106,7 +107,7 @@
             this.btnR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnR.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnR.ForeColor = System.Drawing.Color.White;
-            this.btnR.Location = new System.Drawing.Point(419, 625);
+            this.btnR.Location = new System.Drawing.Point(419, 576);
             this.btnR.Name = "btnR";
             this.btnR.Size = new System.Drawing.Size(80, 80);
             this.btnR.TabIndex = 70;
@@ -121,7 +122,7 @@
             this.btnL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnL.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnL.ForeColor = System.Drawing.Color.White;
-            this.btnL.Location = new System.Drawing.Point(1106, 539);
+            this.btnL.Location = new System.Drawing.Point(1106, 490);
             this.btnL.Name = "btnL";
             this.btnL.Size = new System.Drawing.Size(80, 80);
             this.btnL.TabIndex = 69;
@@ -136,7 +137,7 @@
             this.btnF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnF.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnF.ForeColor = System.Drawing.Color.White;
-            this.btnF.Location = new System.Drawing.Point(591, 539);
+            this.btnF.Location = new System.Drawing.Point(591, 490);
             this.btnF.Name = "btnF";
             this.btnF.Size = new System.Drawing.Size(80, 80);
             this.btnF.TabIndex = 68;
@@ -151,7 +152,7 @@
             this.btnZ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZ.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ.ForeColor = System.Drawing.Color.White;
-            this.btnZ.Location = new System.Drawing.Point(1106, 625);
+            this.btnZ.Location = new System.Drawing.Point(1106, 576);
             this.btnZ.Name = "btnZ";
             this.btnZ.Size = new System.Drawing.Size(80, 80);
             this.btnZ.TabIndex = 67;
@@ -166,7 +167,7 @@
             this.btnY.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnY.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY.ForeColor = System.Drawing.Color.White;
-            this.btnY.Location = new System.Drawing.Point(1020, 625);
+            this.btnY.Location = new System.Drawing.Point(1020, 576);
             this.btnY.Name = "btnY";
             this.btnY.Size = new System.Drawing.Size(80, 80);
             this.btnY.TabIndex = 66;
@@ -181,7 +182,7 @@
             this.btnW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnW.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnW.ForeColor = System.Drawing.Color.White;
-            this.btnW.Location = new System.Drawing.Point(848, 625);
+            this.btnW.Location = new System.Drawing.Point(848, 576);
             this.btnW.Name = "btnW";
             this.btnW.Size = new System.Drawing.Size(80, 80);
             this.btnW.TabIndex = 65;
@@ -196,7 +197,7 @@
             this.btnV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnV.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnV.ForeColor = System.Drawing.Color.White;
-            this.btnV.Location = new System.Drawing.Point(763, 625);
+            this.btnV.Location = new System.Drawing.Point(763, 576);
             this.btnV.Name = "btnV";
             this.btnV.Size = new System.Drawing.Size(80, 80);
             this.btnV.TabIndex = 64;
@@ -211,7 +212,7 @@
             this.btnU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnU.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnU.ForeColor = System.Drawing.Color.White;
-            this.btnU.Location = new System.Drawing.Point(677, 625);
+            this.btnU.Location = new System.Drawing.Point(677, 576);
             this.btnU.Name = "btnU";
             this.btnU.Size = new System.Drawing.Size(80, 80);
             this.btnU.TabIndex = 63;
@@ -226,7 +227,7 @@
             this.btnT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnT.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnT.ForeColor = System.Drawing.Color.White;
-            this.btnT.Location = new System.Drawing.Point(591, 625);
+            this.btnT.Location = new System.Drawing.Point(591, 576);
             this.btnT.Name = "btnT";
             this.btnT.Size = new System.Drawing.Size(80, 80);
             this.btnT.TabIndex = 62;
@@ -241,7 +242,7 @@
             this.btnS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnS.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnS.ForeColor = System.Drawing.Color.White;
-            this.btnS.Location = new System.Drawing.Point(505, 625);
+            this.btnS.Location = new System.Drawing.Point(505, 576);
             this.btnS.Name = "btnS";
             this.btnS.Size = new System.Drawing.Size(80, 80);
             this.btnS.TabIndex = 61;
@@ -256,7 +257,7 @@
             this.btnQ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQ.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQ.ForeColor = System.Drawing.Color.White;
-            this.btnQ.Location = new System.Drawing.Point(333, 625);
+            this.btnQ.Location = new System.Drawing.Point(333, 576);
             this.btnQ.Name = "btnQ";
             this.btnQ.Size = new System.Drawing.Size(80, 80);
             this.btnQ.TabIndex = 60;
@@ -271,7 +272,7 @@
             this.btnP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnP.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnP.ForeColor = System.Drawing.Color.White;
-            this.btnP.Location = new System.Drawing.Point(247, 625);
+            this.btnP.Location = new System.Drawing.Point(247, 576);
             this.btnP.Name = "btnP";
             this.btnP.Size = new System.Drawing.Size(80, 80);
             this.btnP.TabIndex = 59;
@@ -286,7 +287,7 @@
             this.btnO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnO.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnO.ForeColor = System.Drawing.Color.White;
-            this.btnO.Location = new System.Drawing.Point(161, 625);
+            this.btnO.Location = new System.Drawing.Point(161, 576);
             this.btnO.Name = "btnO";
             this.btnO.Size = new System.Drawing.Size(80, 80);
             this.btnO.TabIndex = 58;
@@ -301,7 +302,7 @@
             this.btnN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnN.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnN.ForeColor = System.Drawing.Color.White;
-            this.btnN.Location = new System.Drawing.Point(75, 625);
+            this.btnN.Location = new System.Drawing.Point(75, 576);
             this.btnN.Name = "btnN";
             this.btnN.Size = new System.Drawing.Size(80, 80);
             this.btnN.TabIndex = 57;
@@ -316,7 +317,7 @@
             this.btnM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnM.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnM.ForeColor = System.Drawing.Color.White;
-            this.btnM.Location = new System.Drawing.Point(1192, 539);
+            this.btnM.Location = new System.Drawing.Point(1192, 490);
             this.btnM.Name = "btnM";
             this.btnM.Size = new System.Drawing.Size(80, 80);
             this.btnM.TabIndex = 56;
@@ -331,7 +332,7 @@
             this.btnK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnK.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnK.ForeColor = System.Drawing.Color.White;
-            this.btnK.Location = new System.Drawing.Point(1020, 539);
+            this.btnK.Location = new System.Drawing.Point(1020, 490);
             this.btnK.Name = "btnK";
             this.btnK.Size = new System.Drawing.Size(80, 80);
             this.btnK.TabIndex = 55;
@@ -346,7 +347,7 @@
             this.btnJ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJ.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJ.ForeColor = System.Drawing.Color.White;
-            this.btnJ.Location = new System.Drawing.Point(934, 539);
+            this.btnJ.Location = new System.Drawing.Point(934, 490);
             this.btnJ.Name = "btnJ";
             this.btnJ.Size = new System.Drawing.Size(80, 80);
             this.btnJ.TabIndex = 54;
@@ -361,7 +362,7 @@
             this.btnI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnI.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnI.ForeColor = System.Drawing.Color.White;
-            this.btnI.Location = new System.Drawing.Point(848, 539);
+            this.btnI.Location = new System.Drawing.Point(848, 490);
             this.btnI.Name = "btnI";
             this.btnI.Size = new System.Drawing.Size(80, 80);
             this.btnI.TabIndex = 53;
@@ -376,7 +377,7 @@
             this.btnH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnH.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnH.ForeColor = System.Drawing.Color.White;
-            this.btnH.Location = new System.Drawing.Point(763, 539);
+            this.btnH.Location = new System.Drawing.Point(763, 490);
             this.btnH.Name = "btnH";
             this.btnH.Size = new System.Drawing.Size(80, 80);
             this.btnH.TabIndex = 52;
@@ -391,7 +392,7 @@
             this.btnG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnG.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnG.ForeColor = System.Drawing.Color.White;
-            this.btnG.Location = new System.Drawing.Point(677, 539);
+            this.btnG.Location = new System.Drawing.Point(677, 490);
             this.btnG.Name = "btnG";
             this.btnG.Size = new System.Drawing.Size(80, 80);
             this.btnG.TabIndex = 51;
@@ -406,7 +407,7 @@
             this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnE.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnE.ForeColor = System.Drawing.Color.White;
-            this.btnE.Location = new System.Drawing.Point(505, 539);
+            this.btnE.Location = new System.Drawing.Point(505, 490);
             this.btnE.Name = "btnE";
             this.btnE.Size = new System.Drawing.Size(80, 80);
             this.btnE.TabIndex = 50;
@@ -421,7 +422,7 @@
             this.btnD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnD.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnD.ForeColor = System.Drawing.Color.White;
-            this.btnD.Location = new System.Drawing.Point(419, 539);
+            this.btnD.Location = new System.Drawing.Point(419, 490);
             this.btnD.Name = "btnD";
             this.btnD.Size = new System.Drawing.Size(80, 80);
             this.btnD.TabIndex = 49;
@@ -436,7 +437,7 @@
             this.btnC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnC1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC1.ForeColor = System.Drawing.Color.White;
-            this.btnC1.Location = new System.Drawing.Point(247, 539);
+            this.btnC1.Location = new System.Drawing.Point(247, 490);
             this.btnC1.Name = "btnC1";
             this.btnC1.Size = new System.Drawing.Size(80, 80);
             this.btnC1.TabIndex = 48;
@@ -451,7 +452,7 @@
             this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnB.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnB.ForeColor = System.Drawing.Color.White;
-            this.btnB.Location = new System.Drawing.Point(161, 539);
+            this.btnB.Location = new System.Drawing.Point(161, 490);
             this.btnB.Name = "btnB";
             this.btnB.Size = new System.Drawing.Size(80, 80);
             this.btnB.TabIndex = 47;
@@ -466,7 +467,7 @@
             this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnA.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnA.ForeColor = System.Drawing.Color.White;
-            this.btnA.Location = new System.Drawing.Point(75, 539);
+            this.btnA.Location = new System.Drawing.Point(75, 490);
             this.btnA.Name = "btnA";
             this.btnA.Size = new System.Drawing.Size(80, 80);
             this.btnA.TabIndex = 46;
@@ -477,11 +478,11 @@
             // lblDescricao
             // 
             this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescricao.ForeColor = System.Drawing.Color.White;
-            this.lblDescricao.Location = new System.Drawing.Point(344, 90);
+            this.lblDescricao.Location = new System.Drawing.Point(343, 78);
             this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(686, 33);
+            this.lblDescricao.Size = new System.Drawing.Size(624, 30);
             this.lblDescricao.TabIndex = 73;
             this.lblDescricao.Text = "Tente fomar a palavra descrita na imagem abaixo:";
             // 
@@ -491,7 +492,7 @@
             this.lblPalavra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(184)))), ((int)(((byte)(96)))));
             this.lblPalavra.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPalavra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.lblPalavra.Location = new System.Drawing.Point(495, 432);
+            this.lblPalavra.Location = new System.Drawing.Point(495, 408);
             this.lblPalavra.Name = "lblPalavra";
             this.lblPalavra.Size = new System.Drawing.Size(362, 56);
             this.lblPalavra.TabIndex = 75;
@@ -617,7 +618,7 @@
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
-            this.btnVoltar.Location = new System.Drawing.Point(1192, 625);
+            this.btnVoltar.Location = new System.Drawing.Point(1192, 576);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(80, 80);
             this.btnVoltar.TabIndex = 81;
@@ -626,7 +627,7 @@
             // 
             // pbPalavra
             // 
-            this.pbPalavra.Location = new System.Drawing.Point(75, 144);
+            this.pbPalavra.Location = new System.Drawing.Point(74, 119);
             this.pbPalavra.Name = "pbPalavra";
             this.pbPalavra.Size = new System.Drawing.Size(1198, 262);
             this.pbPalavra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -645,7 +646,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(184)))), ((int)(((byte)(96)))));
-            this.pictureBox1.Location = new System.Drawing.Point(-276, 425);
+            this.pictureBox1.Location = new System.Drawing.Point(-276, 401);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1900, 67);
             this.pictureBox1.TabIndex = 87;
@@ -656,7 +657,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(1370, 750);
+            this.ClientSize = new System.Drawing.Size(1370, 696);
             this.Controls.Add(this.lblTentativas);
             this.Controls.Add(this.lblTentativasDesc);
             this.Controls.Add(this.btnDificil);
@@ -698,10 +699,10 @@
             this.Controls.Add(this.btnA);
             this.Controls.Add(this.pbMenu);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmForca";
-            this.Text = "frmMontarPalavra";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Jogo da Forca";
             ((System.ComponentModel.ISupportInitialize)(this.pbPalavra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

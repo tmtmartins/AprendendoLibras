@@ -42,7 +42,7 @@
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(1140, 547);
+            this.btnSair.Location = new System.Drawing.Point(1138, 518);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(140, 140);
             this.btnSair.TabIndex = 1;
@@ -56,7 +56,7 @@
             this.btn_descricao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_descricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_descricao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btn_descricao.Location = new System.Drawing.Point(253, 302);
+            this.btn_descricao.Location = new System.Drawing.Point(253, 254);
             this.btn_descricao.Name = "btn_descricao";
             this.btn_descricao.Size = new System.Drawing.Size(264, 92);
             this.btn_descricao.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.btn_Alfabeto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Alfabeto.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Alfabeto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btn_Alfabeto.Location = new System.Drawing.Point(253, 450);
+            this.btn_Alfabeto.Location = new System.Drawing.Point(253, 405);
             this.btn_Alfabeto.Name = "btn_Alfabeto";
             this.btn_Alfabeto.Size = new System.Drawing.Size(264, 92);
             this.btn_Alfabeto.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.btnGerador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGerador.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGerador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btnGerador.Location = new System.Drawing.Point(540, 450);
+            this.btnGerador.Location = new System.Drawing.Point(540, 405);
             this.btnGerador.Name = "btnGerador";
             this.btnGerador.Size = new System.Drawing.Size(264, 92);
             this.btnGerador.TabIndex = 4;
@@ -101,7 +101,7 @@
             this.btnMontarPalavra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMontarPalavra.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMontarPalavra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btnMontarPalavra.Location = new System.Drawing.Point(830, 450);
+            this.btnMontarPalavra.Location = new System.Drawing.Point(830, 405);
             this.btnMontarPalavra.Name = "btnMontarPalavra";
             this.btnMontarPalavra.Size = new System.Drawing.Size(264, 92);
             this.btnMontarPalavra.TabIndex = 5;
@@ -116,7 +116,7 @@
             this.btnHistoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHistoria.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btnHistoria.Location = new System.Drawing.Point(540, 302);
+            this.btnHistoria.Location = new System.Drawing.Point(540, 254);
             this.btnHistoria.Name = "btnHistoria";
             this.btnHistoria.Size = new System.Drawing.Size(264, 92);
             this.btnHistoria.TabIndex = 6;
@@ -131,7 +131,7 @@
             this.btnJogoMemoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJogoMemoria.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJogoMemoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
-            this.btnJogoMemoria.Location = new System.Drawing.Point(830, 302);
+            this.btnJogoMemoria.Location = new System.Drawing.Point(830, 254);
             this.btnJogoMemoria.Name = "btnJogoMemoria";
             this.btnJogoMemoria.Size = new System.Drawing.Size(264, 92);
             this.btnJogoMemoria.TabIndex = 7;
@@ -145,7 +145,7 @@
             this.lblCreditos.BackColor = System.Drawing.Color.Transparent;
             this.lblCreditos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCreditos.ForeColor = System.Drawing.Color.LightGreen;
-            this.lblCreditos.Location = new System.Drawing.Point(486, 605);
+            this.lblCreditos.Location = new System.Drawing.Point(483, 547);
             this.lblCreditos.Name = "lblCreditos";
             this.lblCreditos.Size = new System.Drawing.Size(391, 22);
             this.lblCreditos.TabIndex = 8;
@@ -159,7 +159,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(184)))), ((int)(((byte)(96)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 771);
+            this.ClientSize = new System.Drawing.Size(1366, 696);
             this.Controls.Add(this.lblCreditos);
             this.Controls.Add(this.btnJogoMemoria);
             this.Controls.Add(this.btnHistoria);
@@ -169,11 +169,10 @@
             this.Controls.Add(this.btn_descricao);
             this.Controls.Add(this.btnSair);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "APRENDENDO LIBRAS";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Teste_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
